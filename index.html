@@ -1510,14 +1510,16 @@
             upgrade: "The cheapest big win on the list: a Ryzen 5000 X3D chip drops into your board (flash the BIOS first) and 16GB more DDR4 reaches 32GB while it is still cheap. Coming from Zen+, the 1% low improvement is the largest of any Ryzen owner here. The 3060 is fine to keep until after those two."
         },
         {
-            id: "katelyn", name: "Katelyn", deviceClass: "desktop",
-            cpu: "i7-9700", cpuIndex: 60, cpuTier: 1,
+            id: "katelyn", name: "Katelyn", deviceClass: "prebuilt",
+            cpu: "i7-9700", cpuIndex: 58, cpuTier: 1,
             gpu: "RTX 2060", gpuRef: "RTX 2060", upscaler: "ml",
             vram: 6, memory: 16, memoryType: "DDR4", unified: false, platform: "intel-9th",
-            profile: "An aging Intel platform with an entry-level Turing card, now the weakest desktop on the list.",
-            target: "1080p Medium · 60–80 fps",
-            downside: "The RTX 2060's 6GB frame buffer, 16GB of system memory and a dead LGA1151 socket with no CPU upgrade left.",
-            upgrade: "The best-value move is a jump to AM4, not a full rebuild. A used or sale AM4 board plus a Ryzen 5000 X3D lets your DDR4 carry over (add 16GB to reach 32GB while it is cheap). Then a card with 12GB or more replaces the 2060. With DDR5 priced the way it is, a new platform waits until 2027."
+            updated: "2026-09-05",
+            ratingNote: "CPU index set below the desktop i7-9700 figure (roughly 60) because this is a Dell G5 tower: a 65W non-K part under Dell's stock power limit in a case with no intake or top fans, so it drops off its boost clocks under sustained load and games closer to a Ryzen 5 3600.",
+            profile: "A Dell G5 prebuilt with an entry-level Turing card, now the weakest desktop on the list and the only one held back by its own case.",
+            target: "1080p Medium · 50–70 fps",
+            downside: "The RTX 2060's 6GB frame buffer, 16GB of system memory, a dead LGA1151 socket, and an OEM case with no front or top fans that lets the i7-9700 throttle under load.",
+            upgrade: "The case and proprietary Dell board and power supply are the real problem, so the drop-in fixes that help everyone else do not apply here. The honest path is a fresh build around a used or sale AM4 board with a Ryzen 5000 X3D in a normal case with a normal power supply, carrying the 16GB of DDR4 (add 16GB more to reach 32GB while it is cheap) and the RTX 2060 across for now; then replace the 2060 with a card with 12GB or more. With DDR5 priced the way it is, AM5 waits until 2027. Until then, a cheap 120mm intake fan in the front bay and a repaste of the stock cooler will claw back some of the lost clocks."
         },
 
         // ----------------------------------------------------------------
